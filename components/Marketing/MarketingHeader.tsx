@@ -16,7 +16,7 @@ export function MarketingHeader({
     <header className={clsx(className, styles.header)} {...props}>
       <Container className={styles.container}>
         <Link href="/">
-          <Logo />
+          <Logo  />
         </Link>
         <form
           action={async () => {

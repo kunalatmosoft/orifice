@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import { ComponentProps, useMemo } from "react";
-import { GitHubIcon } from "@/icons";
+import { GitHubIcon, YouTubeIcon } from "@/icons";
 import { LinkButton } from "@/primitives/Button";
 import { Container } from "@/primitives/Container";
 import styles from "./MarketingFooter.module.css";
@@ -14,14 +14,14 @@ export function MarketingFooter({
   return (
     <footer className={clsx(className, styles.footer)} {...props}>
       <Container className={styles.container}>
-        <span className={styles.copyright}>© {year} Liveblocks Inc.</span>
+        <span className={styles.copyright}>© {year} Orifice Inc.</span>
         <LinkButton
-          href="https://github.com/liveblocks/liveblocks/tree/main/starter-kits/nextjs-starter-kit"
-          icon={<GitHubIcon />}
+          href=""
+          icon={<YouTubeIcon />}
           target="_blank"
           variant="secondary"
         >
-          View on GitHub
+          View on youtube
         </LinkButton>
       </Container>
     </footer>

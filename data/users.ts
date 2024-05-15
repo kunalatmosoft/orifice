@@ -19,31 +19,31 @@ export const users: Omit<User, "color">[] = [
   */
   {
     id: "charlie.layne@example.com",
-    name: "Charlie Layne",
+    name: "Mark Zukerberg",
     avatar: "https://liveblocks.io/avatars/avatar-2.png",
     groupIds: ["product", "engineering", "design"],
   },
   {
     id: "mislav.abha@example.com",
-    name: "Mislav Abha",
+    name: "Elon Musk",
     avatar: "https://liveblocks.io/avatars/avatar-3.png",
     groupIds: ["engineering"],
   },
   {
     id: "tatum.paolo@example.com",
-    name: "Tatum Paolo",
+    name: "Steve Roger",
     avatar: "https://liveblocks.io/avatars/avatar-4.png",
     groupIds: ["engineering", "design"],
   },
   {
     id: "anjali.wanda@example.com",
-    name: "Anjali Wanda",
+    name: "Tony Stark",
     avatar: "https://liveblocks.io/avatars/avatar-5.png",
     groupIds: ["product"],
   },
   {
     id: "emil.joyce@example.com",
-    name: "Emil Joyce",
+    name: "Chris Evan",
     avatar: "https://liveblocks.io/avatars/avatar-6.png",
     groupIds: ["product", "design"],
   },
