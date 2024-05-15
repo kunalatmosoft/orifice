@@ -1,6 +1,7 @@
 import type { NextAuthConfig } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { getUser } from "@/lib/database";
+import { User } from "./types/data";
 
 export const authConfig: NextAuthConfig = {
   // Configure one or more authentication providers

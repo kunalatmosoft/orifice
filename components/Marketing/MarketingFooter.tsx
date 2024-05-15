@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import { ComponentProps, useMemo } from "react";
-import { GitHubIcon, YouTubeIcon } from "@/icons";
+import { YouTubeIcon } from "@/icons";
 import { LinkButton } from "@/primitives/Button";
 import { Container } from "@/primitives/Container";
 import styles from "./MarketingFooter.module.css";
